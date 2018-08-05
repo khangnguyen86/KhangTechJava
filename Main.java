@@ -23,12 +23,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        gridPane.add(lblTile,0,0);
-        Scene scene = new Scene(gridPane, 400,220);
-        primaryStage.setScene(scene);
-        primaryStage.show();
-        lblTile.setFont(Font.font("Arial"));
-        gridPane.add(comboBoxTenMobiles, 0,2);
     }
 
     public static void main(String[] args) {
